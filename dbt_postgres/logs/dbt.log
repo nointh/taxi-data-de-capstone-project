@@ -1,0 +1,27 @@
+
+
+============================== 2022-07-19 14:08:12.893422 | 760dd9d3-e79a-4db7-b7af-a51d23ed430e ==============================
+14:08:12.893435 [info ] [MainThread]: Running with dbt=1.1.1
+14:08:12.893932 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/noing/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+14:08:12.894142 [debug] [MainThread]: Tracking: tracking
+14:08:12.895565 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd76fe5b220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd76fe5ae00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd76fe5a9b0>]}
+14:08:12.896023 [info ] [MainThread]: Creating dbt configuration folder at /home/noing/.dbt
+14:08:19.903776 [debug] [MainThread]: Starter project path: /home/noing/git/taxi-data-de-capstone-project/dbt_postgres/vm_dbt_package/lib/python3.10/site-packages/dbt/include/starter_project
+14:08:30.275068 [info ] [MainThread]: Profile ny_taxi written to /home/noing/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+14:08:30.275536 [info ] [MainThread]: 
+Your new dbt project "ny_taxi" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+14:08:30.275980 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd76fe5b700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd76fe5ae00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd76fe5ac80>]}

@@ -30,6 +30,8 @@ def ingest(params):
 
     while True:
         df = next(df_iter)
+        if df == None:
+            break
         t_start = time()
         df['tpep_pickup_datetime'] = pd.to_datetime(df['tpep_pickup_datetime'] )
         df['tpep_dropoff_datetime'] = pd.to_datetime(df['tpep_dropoff_datetime'] )
